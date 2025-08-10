@@ -1,0 +1,18 @@
+{
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "terminal.integrated.profiles.windows": {
+        "Git Bash": {
+            "path": "C:\\Program Files\\Git\\bin\\bash.exe",
+            "args": [
+                "--login"
+            ],
+            "icon": "terminal-bash"
+        }
+    },
+    "terminal.integrated.env.windows": {
+        "PYTHONPATH": "${workspaceFolder}"
+    },
+    "python.defaultInterpreterPath": "./.venv/Scripts/python.exe",
+    "python.terminal.activateEnvironment": true,
+    "python.terminal.activateEnvInCurrentTerminal": true
+}

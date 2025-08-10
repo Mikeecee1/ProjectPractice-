@@ -1,0 +1,38 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "terminal.integrated.defaultProfile.windows": "Git Bash",
+        "terminal.integrated.profiles.windows": {
+            "Git Bash": {
+                "path": "C:\\Program Files\\Git\\bin\\bash.exe",
+                "args": [
+                    "--login",
+                    "--rcfile",
+                    "${workspaceFolder}/.bashrc"
+                ],
+                "icon": "terminal-bash",
+                "env": {
+                    "CHERE_INVOKING": "1"
+                }
+            }
+        },
+        "python.defaultInterpreterPath": "./.venv/Scripts/python.exe",
+        "python.terminal.activateEnvironment": true,
+        "python.terminal.activateEnvInCurrentTerminal": true,
+        "terminal.integrated.cwd": "${workspaceFolder}",
+        "terminal.integrated.env.windows": {
+            "PYTHONPATH": "${workspaceFolder}"
+        }
+    },
+    "extensions": {
+        "recommendations": [
+            "ms-python.python",
+            "ms-python.vscode-pylance",
+            "ms-toolsai.jupyter"
+        ]
+    }
+}
